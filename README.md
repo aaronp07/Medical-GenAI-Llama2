@@ -41,3 +41,11 @@ llama-2-7b-chat.ggmlv3.q4_0.bin
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 
 ```
+
+### Step 6 - Create Project Structure
+
+```bash
+python  .\template.py
+
+```
+
