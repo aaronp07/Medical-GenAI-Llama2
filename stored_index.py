@@ -1,10 +1,10 @@
-from langchain.prompts import PromptTemplate
-from langchain.chains import RetrievalQA
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
+# from langchain.prompts import PromptTemplate
+# from langchain.chains import RetrievalQA
+# from langchain_community.embeddings import HuggingFaceEmbeddings
+# from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain_community.vectorstores import Pinecone
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.llms import CTransformers
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain_community.llms import CTransformers
 from pinecone import Pinecone, ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
