@@ -1,11 +1,12 @@
-ctransformers==0.2.5
-pinecone-client
---upgrade sentence-transformers
--U langchain-community
---upgrade langchain
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-pinecone==0.2.6
+pinecone==6.0.0
+ctransformers==0.2.27
+sentence-transformers
 flask
 pypdf
-huggingface_hub
-huggingface_hub[hf_xet]
-pydantic<2
---upgrade langchainplus-sdk
+python-dotenv
+
+
+-e .
