@@ -7,6 +7,13 @@ Technical Requirement:-
     4. LLM -> Meta llama 2
     5. Vector Db -> Pinecone
 
+Libraries:-
+- Python
+- LangChain
+- Flask
+- Meta Llama 2
+- Pinecone
+
 ### Step 1 - Create Project Environment
 ```bash
 conda create -n mchatbot python=3.8 -y
@@ -25,13 +32,11 @@ pip install -r ./requirements.txt
 
 
 ### Step 4 - Create a '.env' file in the root directory and add your Pinecone credential
-
 ```
 PINECONE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 
 ### Step 5 - Download the Quantize Model from the link provided in model folder and the model in the model directory
-
 ```
 ## Donload the Llama 2 Model:
 
@@ -43,13 +48,27 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```
 
 ### Step 6 - Create Project Structure
-
 ```bash
 python  .\template.py
 
 ```
 
-```Chatbot HTML UI
-URL:    https://codepen.io/Anthony-Hirt/pen/raaoXma
+### Step 7 - Store_Index
+```bash
+
+# Run the following command
+python .\store_index.py
 ```
 
+### Step 8 - Create UI (HTML, CSS and JavaScript)
+```
+URL:    https://codepen.io/Anthony-Hirt/pen/raaoXma
+
+```
+
+### Step 9
+```bash
+
+# Finally run the following command
+python .\app.py
+```
